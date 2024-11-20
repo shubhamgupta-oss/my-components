@@ -7,9 +7,6 @@
     border-radius: 10px;
     margin-left: 40rem;
     padding: 20px;
-   
-    
-   
     
 }
 .childBody{
@@ -33,7 +30,6 @@ text-align: center;
 }
 
 
-
 .childBody button{
     width: 100px;
     color: black;
@@ -43,8 +39,4 @@ text-align: center;
     padding: 8px;
     border-radius: 10px;
     font-weight: bolder;
-}
-
-.childBody span{
-   
 }
