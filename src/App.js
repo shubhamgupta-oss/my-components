@@ -5,8 +5,8 @@ import Pagination from './Features/Pagination/Pagination';
 
 function App() {
   return (
-    <Pagination/>
-  // <OtpScreen/>
+    // <Pagination/>
+  <OtpScreen/>
   );
 }
 

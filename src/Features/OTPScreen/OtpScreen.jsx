@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import './OtpScreen.css';
 
 export default function OtpScreen() {
+    const [sec, setSec] = useState(10); 
     const [input, setInput] = useState(new Array(4).fill(""));
     const[inputsArr, setInputArr] = useState(input);
     const ref = [useRef(), useRef(), useRef(), useRef()];
@@ -25,6 +26,13 @@ export default function OtpScreen() {
        ref[0].current.focus();
 
     },[])
+
+    useEffect(()=>{
+        if(sec === 0) return
+        setTimeout(() => {
+            setSec(sec-1)
+        }, 1000);
+    },[sec])
 
 
     const handelKey = (e, index) =>{
@@ -65,7 +73,15 @@ export default function OtpScreen() {
                    
                   <br />
                     <button>Submit</button><br />
-                    <span>Resend in 60 sec</span>
+                    <span>
+                        {sec === 0 ? (
+                        <button onClick={() => setSec(10)}>Resend OTP</button>
+                          ) : (
+                         `Resend in ${sec} sec`
+                         )}
+                    </span>
+
+
                 </div>
 
             </div>
