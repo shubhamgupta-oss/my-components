@@ -1,6 +1,7 @@
 
 import './App.css';
-import EMICal from './Features/EMICal/EMICal';
+import ModalOverlay from './Features/ModalOverlay/ModalOverlay';
+// import EMICal from './Features/EMICal/EMICal';
 // import FAQ from './Features/FAQ/FAQ.jsx';
 // import Countdown from './Features/Countdown/Countdown';
 // import OtpScreen from './Features/OTPScreen/OtpScreen';
@@ -12,7 +13,8 @@ function App() {
   // <OtpScreen/>
   // <Countdown/>
   // <FAQ/>
-  <EMICal/>
+  // <EMICal/>
+  <ModalOverlay/>
 
   );
 }
