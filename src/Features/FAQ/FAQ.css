@@ -1,0 +1,58 @@
+.container{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.data-FAQ{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;;
+    border: 2px solid white;
+    padding: 5vh;
+    border-radius: 15px;
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    
+}
+
+.single-FQA{
+    
+    border: 2px solid white;
+    padding: 1vh;
+    border-radius: 1vh;
+    font-size: 30px;
+    
+   
+}
+
+.single-FQA  button{
+    background-color: black;
+    color: white;
+    border: none;
+   font-size: 30px;
+   display: flex;
+   outline: none;
+   
+}
+.questionF{
+    display: flex;
+    padding: 2vh;
+    gap: 1vh;
+}
+
+.arrow {
+    transform: rotate(90deg);
+}
+
+.ansF{
+    
+    margin-left: 5%;
+   color: skyblue;
+   
+}
