@@ -1,12 +1,14 @@
 
 import './App.css';
-import OtpScreen from './Features/OTPScreen/OtpScreen';
-import Pagination from './Features/Pagination/Pagination';
+import Countdown from './Features/Countdown/Countdown';
+// import OtpScreen from './Features/OTPScreen/OtpScreen';
+// import Pagination from './Features/Pagination/Pagination';
 
 function App() {
   return (
-    // <Pagination/>
-  <OtpScreen/>
+  // <Pagination/>
+  // <OtpScreen/>
+  <Countdown/>
   );
 }
 
