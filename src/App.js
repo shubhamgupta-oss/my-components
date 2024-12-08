@@ -1,6 +1,7 @@
 
 import './App.css';
-import FAQ from './Features/FAQ/FAQ.jsx';
+import EMICal from './Features/EMICal/EMICal';
+// import FAQ from './Features/FAQ/FAQ.jsx';
 // import Countdown from './Features/Countdown/Countdown';
 // import OtpScreen from './Features/OTPScreen/OtpScreen';
 // import Pagination from './Features/Pagination/Pagination';
@@ -10,7 +11,9 @@ function App() {
   // <Pagination/>
   // <OtpScreen/>
   // <Countdown/>
-  <FAQ/>
+  // <FAQ/>
+  <EMICal/>
+
   );
 }
 
